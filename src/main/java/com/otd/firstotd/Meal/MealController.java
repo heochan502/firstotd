@@ -14,6 +14,7 @@ public class MealController {
     @GetMapping
     public String get() {
         log.info("meal");
+        log.info("inha inha");
         return "meal";
     }
 }
